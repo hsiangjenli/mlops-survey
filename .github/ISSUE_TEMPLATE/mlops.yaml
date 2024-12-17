@@ -1,0 +1,31 @@
+name: MLOps Tool Survey  
+description: Submit a survey entry for an MLOps tool or platform.  
+title: "[Survey] <工具名稱與簡要描述>"  
+labels:  
+  - Survey  
+  - MLOps  
+  - Research  
+body:  
+  - type: input  
+    id: tool_name  
+    attributes:  
+      label: 🛠️ 工具名稱  
+      description: 請填寫 MLOps 工具或平台的名稱  
+      placeholder: 例如：Kubeflow, MLflow, Airflow  
+  - type: textarea  
+    id: tool_description  
+    attributes:  
+      label: 📋 工具描述  
+      description: 簡要描述該工具的主要用途、功能和特點  
+      placeholder: 例如：MLflow 是一個用於管理機器學習生命週期的開源平台  
+  - type: textarea  
+    id: references  
+    attributes:  
+      label: 📚 相關資源  
+      description: 提供該工具的官方文件、教學文章或其他參考資源  
+      placeholder: 例如：官方文件連結、GitHub Repo  
+  - type: textarea  
+    id: additional_notes  
+    attributes:  
+      label: 📎 附加說明  
+      description: 任何其他需要補充的資訊或個人觀察  
